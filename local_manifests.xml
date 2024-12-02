@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="ImSpiDy"    
+           fetch="https://github.com/ImSpiDy" />
+  
+  <remote  name="Germanium"
+           fetch="https://github.com/germaniumsculk" />
+  
+  <remote  name="wHo-EM-i"
+           fetch="https://github.com/wHo-EM-i" />
+
+        <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender-4.19" remote="ImSpiDy" clone-depth="1" revision="qti-oldcam" />
+        <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="Germanium"  clone-depth="1" revision="14-aosp"/>
+        <project path="vendor/xiaomi/lavender" name="android_vendor_xiaomi_lavender" remote="wHo-EM-i"  clone-depth="1" revision="T" />
+
+</manifest>
