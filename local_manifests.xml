@@ -10,5 +10,5 @@
         <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender" remote="ImSpiDy" clone-depth="1" revision="14-Retro" />
         <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="Germanium"  clone-depth="1" revision="14-aosp"/>
         <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="ImSpiDy"  clone-depth="1" revision="14" />
-
+        <project path="vendor/xiaomi/sdm660-common" name="vendor_xiaomi_sdm660-common" remote="ImSpiDy" clone-depth="1" revision="14" />
 </manifest>
