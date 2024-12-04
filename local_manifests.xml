@@ -17,5 +17,8 @@
 <!-- Vendor -->
 <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="ImSpiDy"  clone-depth="1" revision="14" />
 <project path="vendor/xiaomi/sdm660-common" name="vendor_xiaomi_sdm660-common" remote="ImSpiDy" clone-depth="1" revision="14" />
+<remove-project path="vendor/aosp" />
+<project path="vendor/aosp" name="vendor_aosp" remote="Germanium" revision="fourteen" />
+  
 
 </manifest>
